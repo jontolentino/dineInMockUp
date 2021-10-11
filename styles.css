@@ -1,0 +1,97 @@
+/* ./your-css-folder/styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Raleway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-image: url(./frontim.png);
+    height: 800px;
+}
+
+header {
+    
+}
+
+#websiteTitle{
+    font-family:'Çinzel', Georgia, 'Times New Roman', Times, serif ;
+    /* font-weight: 400; */
+}
+
+#signInButton{
+    background-color: #EDAC2C;
+}
+
+.hero-metas{
+    margin-top: 18%;
+}
+
+#heroTitle{
+    font-family: 'Çinzel', Georgia, 'Times New Roman', Times, serif ;
+    line-height: 52px;
+}
+
+.heroButtonItem{
+    background-color: rgba(237, 172, 44, 0.3);
+}
+
+main{
+    /* height: 800px; */
+}
+
+.sectionAppH3{
+    font-family: 'Cinzel', Georgia, 'Times New Roman', Times, serif;
+}
+
+.itemStepsTitle{
+    font-family: 'Cinzel', Georgia, 'Times New Roman', Times, serif;
+}
+
+.orangeLine{
+    top: 100px;
+    left: -40px;
+}
+
+.restaurantSectionContainer h2{
+    font-family: 'Cinzel', Georgia, 'Times New Roman', Times, serif;
+} 
+
+.bgItem1{
+    background-image: url(./masso\ 3000x2000px\ 1.png);
+}
+
+.bgItem2{
+    background-image: url(./masso\ 3000x2000px\ 1\(1\).png);
+}
+
+.bgItem3{
+    background-image: url(./masso\ 3000x2000px\ 1\(2\).png);
+}
+
+.pMasso{
+    top: 80%;
+}
+
+.textItem2{
+    top: 80%;
+}
+
+.addRestaurantContainer{
+    top: 75%;
+}
+
+.itemFontChanger{
+    font-family: 'Cinzel', Georgia, 'Times New Roman', Times, serif;
+}
+
+#bookAChefButtonHero{
+    border: 2px solid rgba(237, 172, 44, 0.3);
+}   
+
+
+.applyTest{
+    @apply font-bold py-2 px-4 rounded;
+}
